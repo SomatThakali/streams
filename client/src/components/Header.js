@@ -18,6 +18,4 @@ const Header = () => {
   );
 };
 
-// 573867074644-dlrvmnt6jqskob6qpmdqj712ov8qbun0.apps.googleusercontent.com
-
 export default Header;

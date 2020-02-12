@@ -63,7 +63,7 @@ class StreamList extends React.Component {
   }
 }
 
-const mapPropsToState = state => {
+const mapStateToProps = state => {
   return {
     streams: Object.values(state.streams),
     currentUserId: state.auth.userId,
@@ -71,4 +71,4 @@ const mapPropsToState = state => {
   };
 };
 
-export default connect(mapPropsToState, { fetchStreams })(StreamList);
+export default connect(mapStateToProps, { fetchStreams })(StreamList);
